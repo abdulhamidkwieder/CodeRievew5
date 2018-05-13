@@ -1,0 +1,147 @@
+.title {
+	width: 100%;
+	background-color: #832593;
+	height: 100px;
+	text-align: center;
+	padding: 2px 5px 2px 5px;
+	margin: 0 auto;
+	font-size: 2em;
+	color: white;
+}
+#center{
+	background-image: url("img/coffee.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 1000px;
+	text-align: center;
+	width: 100%;
+	font-size: 10em;
+	font-family: arial;
+	color: #832593;
+	margin: 0 auto;
+	padding: 6px;
+}
+.heart{
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+}
+.all img {
+width: 150px;
+height: 200px;
+}
+.all{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	font-size: 2.5em;
+}
+.all0 {
+padding-top: 20px;
+display: flex;
+justify-content: space-around;
+background-color: #D4C0D9;
+width: 650px;
+height: 300px;
+margin: 20px 10px;
+}
+.all0  p{
+	align-self: flex-end;
+	margin-bottom: 10px;
+}
+.all0 button{
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+	background-image: linear-gradient(#832593,white);
+	align-self: flex-end;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+.all #heart1{
+	align-self: flex-end;
+	width: 35px;
+	height: 35px;
+	margin-bottom: 10px;
+
+}
+.all1 {
+padding-top: 20px;
+display: flex;
+justify-content: space-around;
+background-color: #D4C0D9;
+width: 650px;
+height: 300px;
+margin: 20px 10px;
+}
+.all1  p{
+	align-self: flex-end;
+	margin-bottom: 15px;
+}
+.all1 button{
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+	background-image: linear-gradient(#832593,white);
+	align-self: flex-end;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+.all2 {
+padding-top: 20px;
+display: flex;
+justify-content: space-around;
+background-color: #D4C0D9;
+width: 650px;
+height: 300px;
+margin: 20px 10px;
+}
+.all2  p{
+	align-self: flex-end;
+	margin-bottom: 10px;
+}
+.all2 button{
+	width: 100px;
+	height: 50px;
+	align-self: flex-end;
+	margin-bottom: 10px;
+	font-size: 25px;
+	border-radius: 20px;
+	background-image: linear-gradient(#832593,white);
+}
+.all3 {
+padding-top: 20px;
+display: flex;
+justify-content: space-around;
+background-color: #D4C0D9;
+width: 650px;
+height: 300px;
+margin: 20px 10px;
+}
+.all3  p{
+	align-self: flex-end;
+	margin-bottom: 10px;
+}
+.all3 button{
+	align-self: flex-end;
+	margin-bottom: 10px;
+	font-size: 25px;
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+	background-image: linear-gradient(#832593,white);
+}
+#footer {
+		width: 100%;
+	background-color: #832593;
+	height: 100px;
+	text-align: center;
+	padding: 2px 5px 2px 5px;
+	margin: 0 auto;
+	font-size: 2em;
+	color: white;
+}
+#aaa{
+	color: red;
+}

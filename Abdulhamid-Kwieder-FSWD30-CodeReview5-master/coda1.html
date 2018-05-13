@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Coders Dating</title>
+<body>
+	<header class="title">
+		<p>Coders <span id="aaa"> < </span><img class="heart" src="img/heart.png" alt="heart"><span id="aaa"> > </span> Dating</p>
+	</header>
+	<div id="center">
+		<p>Welcome to our Website</p>
+	</div>
+<script>
+	var all = [
+			{
+			name: "Anna",
+			surname: "Dur",
+			age: 25,
+			favoritePerformers: ["Justin Timberlake", "Ed Sheeran", "Emma Watson"],
+   			myPhoto: "img/img2.jpg",	
+			like: 12 
+			},
+			{
+			name: "Mohammed",
+			surname: "Attar",
+			age: 21,
+			favoritePerformers: ["Jone Ceina", "Schakira", "Maikel"],
+   			myPhoto: "img/img3.jpg",	
+			like: 8 
+			},
+			{
+			name: "Jone",
+			surname: "Doe",
+			age: 31,
+			favoritePerformers: ["Omar Diab", "Sabah Fawzi", "Katkuteh"],
+   			myPhoto: "img/img4.jpg",	
+			like: 45 
+			},
+			{
+			name: "Maxina",
+			surname: "Lou Lou",
+			age: 24,
+			favoritePerformers: ["Damm Adam", "Rayed Hakmeh", "Hussain Ali"],
+   			myPhoto: "img/img5.jpg",	
+			like: 1 
+			}
+];
+document.write("<div class='all'>");
+for (var i = 0; i <all.length; i++) {
+	document.write("<div class='all"+i+"'>");
+	document.write("<img src='"+all[i].myPhoto+"'>");
+	document.write("name: "+all[i].name+"<br>");
+	document.write("surname: "+all[i].surname+"<br>");
+	document.write("age: "+all[i].age+"<br>");
+	document.write("</div>");
+}
+</script>
+</body>
+</html>
